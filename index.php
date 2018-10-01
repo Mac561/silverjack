@@ -1,3 +1,10 @@
+<? php
+session_start();//starting with session for time
+
+
+ 
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
