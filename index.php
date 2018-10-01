@@ -15,6 +15,7 @@ session_start();//starting with session for time
  <div>
      <h1> Horror Jack!!! </h1>
  </div>
+
 =======
         <title>SilverJack</title>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
