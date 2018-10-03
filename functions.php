@@ -29,5 +29,21 @@ function displayCards() {
     }
     
 }//endFunction
-
+  
+  
+   function getHand($deck){//working on gethand function (ivonne)
+        $i = 0;
+        $sum = 0;
+         do{ 
+             $tempCard = array_splice($deck,0,1);
+            $tempSuit = $tempCard[0]["suit"];
+            $tempNum = $tempCard[0]["num"];
+            $sum += $tempNum;
+            $hand[$i] = array("suit"=>$tempSuit,"num"=>$tempNum);
+               $i++;
+        } while($sum<36);
+        return array("hand"=>$hand, "sum"=>$sum, "deck"=>$deck);
+    } //end function        
+    
+    
 ?>

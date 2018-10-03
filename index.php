@@ -1,7 +1,7 @@
 <? php
 session_start();//starting with session for time
 
-
+$_SESSION['sec'] = array();
  
 ?>
 
