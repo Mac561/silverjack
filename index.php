@@ -1,5 +1,5 @@
 <? php
-include 'functions.php'
+
 session_start();//starting with session for time
 ?>
 
@@ -22,12 +22,13 @@ session_start();//starting with session for time
          $avgTime; 
          $totalTime; 
          
-         
-         
-         play();
         ?>
         <div>
-            
+          <?php
+          include 'functions.php';
+          play();
+          
+          ?>
 
         </div>
         <div id = "time">
