@@ -1,8 +1,6 @@
 <? php
+include 'functions.php'
 session_start();//starting with session for time
-
-$_SESSION['sec'] = array();
- 
 ?>
 
 <!DOCTYPE html>
@@ -14,8 +12,18 @@ $_SESSION['sec'] = array();
     <body>
          <h1>Silverjack</h1>
         <?php
-         include 'functions.php'
+        
+         $_SESSION['times'] = array();
+         
+         
+         //creating 3 variables for calculate time
+         $startTime = microtime(true);
+         $endtime = microtime(true);
+         $totalTime; 
         ?>
-
+        <div>
+            
+            
+        </div>
     </body>
 </html>
