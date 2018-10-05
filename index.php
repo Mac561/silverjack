@@ -21,10 +21,14 @@ session_start();//starting with session for time
          $endtime = microtime(true);
          $avgTime; 
          $totalTime; 
+         
+         
+         
+         play();
         ?>
         <div>
             
-            
+
         </div>
         <div id = "time">
             <?php
