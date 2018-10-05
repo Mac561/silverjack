@@ -19,10 +19,19 @@ session_start();//starting with session for time
          //creating 3 variables for calculate time
          $startTime = microtime(true);
          $endtime = microtime(true);
+         $avgTime; 
          $totalTime; 
         ?>
         <div>
             
+            
+        </div>
+        <div id = "time">
+            <?php
+              echo "Time elapsed: " . $startTime . " secs";
+              echo "Average Elapsed time: " . $avgTime . " secs";
+              echo "Number of games played: ";
+            ?>
             
         </div>
     </body>
