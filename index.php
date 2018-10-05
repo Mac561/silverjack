@@ -29,6 +29,16 @@ session_start();//starting with session for time
           play();
           
           ?>
+          <div id="Shuffle">
+              
+              <form>
+              
+              <input type="submit" value="Shuffle Cards"/>
+              
+          </form>
+          
+          </div>
+          
 
         </div>
         <div id = "time">
