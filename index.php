@@ -61,8 +61,11 @@ if($_SESSION['loaded'] == 51) {
               echo "Time elapsed: " . $_SESSION['time'] . " seconds. ";
               $_SESSION['sum'] += $_SESSION['time'];
               $avgTime = ($_SESSION['sum']/ $_SESSION['loaded']);
+              echo "<br/>";
               echo "Average Elapsed time: " . $avgTime . " seconds. ";
+              echo "<br/>";
               echo "Number of games played: " . $_SESSION['loaded'];
+              echo "<br/>";
               //session_destroy();
             ?>
             
