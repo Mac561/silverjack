@@ -2,7 +2,6 @@
 $startTime = microtime(true); // Code on how to do time inspired by https://stackoverflow.com/questions/25231153/show-load-time-on-page 
 session_set_cookie_params(0);
 session_start();//starting with session for time
-echo "<h1> hello </h1>";
 $_SESSION['loaded'];
 $_SESSION['sum'];
 
@@ -59,10 +58,10 @@ if($_SESSION['loaded'] == 51) {
               $_SESSION['time'] = $endTime - $startTime;
               
                
-              echo "Time elapsed: " . $_SESSION['time'] . " secs";
+              echo "Time elapsed: " . $_SESSION['time'] . " seconds. ";
               $_SESSION['sum'] += $_SESSION['time'];
               $avgTime = ($_SESSION['sum']/ $_SESSION['loaded']);
-              echo "Average Elapsed time: " . $avgTime . " secs";
+              echo "Average Elapsed time: " . $avgTime . " seconds. ";
               echo "Number of games played: " . $_SESSION['loaded'];
               //session_destroy();
             ?>
