@@ -11,12 +11,12 @@ function play(){
         
         // shuffle deck
         $deck = deckShuffle($sortedDeck);
-        echo "<div class='cardsTitle'>";
+        //echo "<div class='cardsTitle'>";
         //echo "<p>Player 1:</p>";
         //echo "<p>Player 2:</p>";
         //echo "<p>Player 3:</p>";
         //echo "<p>Player 4:</p>";
-        echo "</div>";
+        //echo "</div>";
        while(!$used1 || !$used2 || !$used3 || !$used4 ){
         // deal player 1
         $random = rand(1, 4);
@@ -37,7 +37,7 @@ function play(){
         // deal player 2
         if(($random == 2) && (!$used2)){
         echo "Player 2: ";
-        echo "<img src=\"img/JasonVoorhees.jpg\" alt = 'Jason Voorhees' title =' Jason Voorhees' width = '70'>";
+        echo "<img src=\"img/JasonVoorhees.jpg\" alt = 'Jason Voorhees' title =' Jason Voorhees' width = '100'>";
 
         $dealp2= getHand($deck);
         $deck = $dealp2["deck"];
@@ -91,16 +91,16 @@ function play(){
         displayWinner($winner,$winnerPoints);
         
         // display points 
-        echo "<div class='cardPoints'>";
+        //echo "<div class='cardPoints'>";
         //echo "<p>$p1Sum</p>";
         //echo "<p>$p2Sum</p>";
         //echo "<p>$p3Sum</p>";
         //echo "<p>$p4Sum</p>";
-        echo "</div>";
+       // echo "</div>";
         echo "<br>";
     }
     function displayWinner($winner,$points){
-        echo "<div class = 'winner'>  $winner WINS $points!!!</div>";
+        echo "<div class = 'winner'> <h2> $winner WINS $points!!!<h2/></div>";
     }
     function displayHand($player, $hand){
         $i = 1;

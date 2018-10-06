@@ -50,6 +50,8 @@ if($_SESSION['loaded'] == 51) {
           ?>
 
         </div>
+         </body>
+        <footer>
         <div id = "time">
             <?php
             
@@ -71,7 +73,14 @@ if($_SESSION['loaded'] == 51) {
             
         </div>
         
-        <br>
+        <br/>
+          
+         
+             
+             
+             
+             
+             
         <details>
             <summary>Source Image Sites</summary>
             <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj1uqZhUWc-K1y3Jst2E6vMyteqzMez0H0QmphW3owMMTSjwyJ">Haunted Woods</a>
@@ -85,6 +94,7 @@ if($_SESSION['loaded'] == 51) {
             <a href="https://vignette.wikia.nocookie.net/fridaythe13th/images/e/e5/Freddy_vs_Jason_%282%29.jpg/revision/latest?cb=20171001043508">Jason Voorhees</a>
             <br>
         </details>
-    </body>
+        </footer>
+ 
 </html>
 
