@@ -67,6 +67,21 @@ if($_SESSION['loaded'] == 51) {
             ?>
             
         </div>
+        
+        <br>
+        <details>
+            <summary>Source Image Sites</summary>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj1uqZhUWc-K1y3Jst2E6vMyteqzMez0H0QmphW3owMMTSjwyJ">Haunted Woods</a>
+            <br>
+            <a href="https://upload.wikimedia.org/wikipedia/en/b/bb/The_shining_heres_johnny.jpg">Jack Torrance</a>
+            <br>
+            <a href="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Freddy_Krueger.JPG/250px-Freddy_Krueger.JPG">Freddy Krueger</a>
+            <br>
+            <a href="https://vignette.wikia.nocookie.net/hohrpgseries/images/4/4b/Michael_Myers_%28S5%29.jpg/revision/latest?cb=20140122084511">Michael Myers</a>
+            <br>
+            <a href="https://vignette.wikia.nocookie.net/fridaythe13th/images/e/e5/Freddy_vs_Jason_%282%29.jpg/revision/latest?cb=20171001043508">Jason Voorhees</a>
+            <br>
+        </details>
     </body>
 </html>
 

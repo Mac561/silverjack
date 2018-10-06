@@ -28,7 +28,7 @@ function play(){
         $p1Sum = $dealp1["sum"];
         echo "<div class = 'cards1'>";
         displayHand("1",$p1);
-        echo "Points $p1Sum";
+        echo "Points: $p1Sum";
         echo "</div>";
         $used1 = true;
         }
@@ -44,7 +44,7 @@ function play(){
         $p2Sum = $dealp2["sum"];
         echo "<div class = 'cards2'>";
         displayHand("2",$p2);
-        echo "Points $p2Sum";
+        echo "Points: $p2Sum";
         echo "</div>";
         $used2 = true;
         }
