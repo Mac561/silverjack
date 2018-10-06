@@ -2,6 +2,8 @@ body{
     background-image: url("../img/hauntedWoods.jpg");
     font-family: inherit;
     color: yellow;
+    text-align: center;
+    
 } 
 #time{
     font-family: cursive;
@@ -21,4 +23,5 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    margin: auto;
 }
